@@ -1,0 +1,133 @@
+@import "card.css";
+@import "basket.css";
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/Inter-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1264px;
+  max-height: 83px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 10px 0 17px;
+  position: relative;
+}
+@media (max-width: 1300px) {
+  .header {
+    padding: 10px 2rem 17px;
+  }
+}
+.header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+  height: 56px;
+  border-radius: 12px;
+  background: #F5F7FA;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.header__button:hover {
+  background: rgba(244, 67, 54, 0.05);
+}
+.header__button-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+.header__button-price {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #051D36;
+  margin-right: 12px;
+}
+.header__button-amount {
+  width: 24px;
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F44336;
+  color: #ffffff;
+}
+
+.main {
+  background: #F5F7FA;
+  padding-top: 31px;
+  min-height: 100vh;
+}
+@media (max-width: 1300px) {
+  .main {
+    padding: 31px 2rem 0 2rem;
+  }
+}
+.main .title {
+  max-width: 1264px;
+  margin: 0 auto 31px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #051D36;
+}
+
+/*# sourceMappingURL=main.css.map */
